@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Crystal Collector!</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="assets/javascript/game.js" type="text/javascript"></script>
+</head>
+<header>
+	Crystal Collector!
+</header>
+<body>
+	<div id="directions">
+		<p>
+			You will be given a random number at the start of the game.
+		</p>
+		<br>
+		<p> 
+			There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your total score.
+		</p>
+		<br>
+		<p>
+			You win when your score matches the random number given to you in the beginning. You lose if your score goes higher than the random number.
+		</p>
+		<br>
+		<p>
+			The value of each crystal is hidden from you until you click on it.
+		</p>
+		<br>
+		<p>
+			Each time a new game begins, the value of the crystals change!
+		</p>
+	</div>
+	<div id="random-box">
+		Random Number Here<span id="random-number"></span>
+	</div>
+	<div id="score-box">
+		<p>
+		Wins: <span id="win-score"></span>
+		</p>
+		<br>
+		<p>
+		Losses: <span id="lose-score"></span>
+		</p>
+	</div>
+	<div id="crystal-images">
+		<img src="https://t5.rbxcdn.com/e0c98d4f289701a714da08b4f53d292c" id="crystal1" alt="Thunder Stone" style="width: 100px; height: 100px">
+		<img src="https://t1.rbxcdn.com/97e24df0b2b8591847f009ba52b50661" id="crystal2" alt="Water Stone" style="width: 100px; height: 100px">
+		<img src="https://t4.rbxcdn.com/966fe6f31840338def05ba24f4c99e37" id="crystal3" alt="Fire Stone" style="width: 100px; height: 100px">
+		<img src="https://t5.rbxcdn.com/2813f2ff314f1165bddb69ee6f6c40ab" id="crystal4" alt="Moon Stone" style="width: 100px; height: 100px">
+	</div>
+	<div id="current-score-box">
+		<p>
+			Your current score: <span id="user-score"></span>
+		</p>
+	</div>
+</body>
+</html>

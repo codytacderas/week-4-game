@@ -1,0 +1,83 @@
+header {
+	padding: 120px;
+	text-align: center;
+	background-color: lightblue;
+	color: white;
+	font-family: arial;
+	font-size: 60px;
+	text-shadow:
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+#directions {
+	padding: 100px;
+	text-align: left;
+	background-color: white;
+	color: pink;
+	width: 50%;
+	font-family: arial;
+	font-size: 24px;
+	text-shadow:
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+#random-box {
+	float: left;
+	margin-left: 100px;
+	padding: 50px;
+	text-align: left;
+	background-color: lightgreen;
+	color: white;
+	font-family: arial;
+	font-size: 24px;
+	text-shadow:
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+#score-box {
+	float: left;
+	margin-left: 50px;
+	width: 150px;
+	padding: 25px;
+	text-align: left;
+	background-color: lightgreen;
+	color: white;
+	font-family: arial;
+	font-size: 24px;
+	text-shadow:
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+#crystal-images {
+	margin-left: 50px;
+	clear: both;
+	padding: 50px;
+}
+img {
+	padding: 25px;
+}
+#current-score-box {
+	float: left;
+	text-align: center;
+	margin-left: 100px;
+	margin-bottom: 200px;
+	width: 40%;
+	padding: 25px;
+	background-color: orchid;
+	color: white;
+	font-family: arial;
+	font-size: 24px;
+	text-shadow:
+    -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
